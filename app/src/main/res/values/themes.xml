@@ -26,4 +26,9 @@
     </style>
 
     <style name="Theme.Googlelogin" parent="Base.Theme.Googlelogin" />
+
+    <style name="signoutBtn">
+        <item name="android:textColor">#BCBCBC</item>
+    </style>
+
 </resources>
