@@ -61,6 +61,17 @@ public class UserActivity extends AppCompatActivity implements GoogleApiClient.O
                 });
             }
         });
+
+        // UserActivity에서 문의하기 버튼 누르면 CenterActivity로 화면 전환
+        Button imageButton = (Button) findViewById(R.id.btn2);
+        imageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), CenterActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
     private void gotoMainActivity() {
 
